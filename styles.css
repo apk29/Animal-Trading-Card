@@ -1,0 +1,44 @@
+body {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e6e6e6;
+	width: 300px;
+	margin: 2%;
+	padding: 2%; /*can make padding color different by adding the color after the %*/
+	box-shadow: 10px 10px 5px 0px rgba(230,230,230,1);
+}
+
+/*.background {
+	background-color: gray;*/
+
+}
+
+img {
+	border-radius: 2%;
+}
+
+ul li span {
+	font-weight: bold; /*only make span items bold*/
+}
+
+ul {
+	list-style-type: none; /*take out bullets*/
+}
+
+.list ul {    /*take out list indentation*/
+	margin: 0;
+	padding: 0;
+}
+
+.center {
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 1%;
+	border-color: #e6e6e6;
+	padding: 3%;
+	margin-top: 5%;
+}
+
+.fact {
+	font-style: italic;
+}
